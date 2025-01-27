@@ -14,7 +14,7 @@ class FlameFirstStep extends FlameGame {
     final LottieBuilder lottieBuilder = Lottie.asset('assets/win.json');
     //Компонування анімації, щоб Flame використовував анімації
     final LottieComposition lottieComposition = await loadLottie(lottieBuilder);
-    //Створення самого компоненту анімації, цей комонент вже можна добавляти до світу, який вам взбреде в голову :)
+    //Створення самого компоненту анімації, цей компонент вже можна добавляти до світу, який вам взбреде в голову :)
     //Також можна тут погратися з position та size на ваш розсуд
     //Тільки запреЩаю ставити дуже великі значення, бо наш кубок (який зароблено непосильним трудом) полетить в стратосферу :)
     LottieComponent animation = LottieComponent(lottieComposition,
